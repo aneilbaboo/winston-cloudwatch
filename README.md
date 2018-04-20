@@ -65,7 +65,7 @@ Also have a look at [AWS CloudWatch Logs limits](http://docs.aws.amazon.com/Amaz
 
 ```js
 var winston = require('winston'),
-    WinstonCloudWatch = require('../index');
+    WinstonCloudWatch = require('winston-cloudwatch');
 
 winston.add(WinstonCloudWatch, {
   logGroupName: 'testing',
